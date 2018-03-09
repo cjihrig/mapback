@@ -1,0 +1,29 @@
+{
+  "name": "mapback",
+  "version": "0.1.0",
+  "description": "A Map subclass for managing callbacks",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/mapback",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/mapback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/mapback/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "pretest": "npm run lint",
+    "test": "lab -v -a code -t 100"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "belly-button": "4.x.x",
+    "code": "5.x.x",
+    "lab": "15.x.x"
+  }
+}
